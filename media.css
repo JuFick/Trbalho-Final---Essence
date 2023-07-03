@@ -1,0 +1,150 @@
+@media (min-width: 480px) and (max-width: 625px) {
+  .frete {
+    text-align: center;
+    padding: 0.1rem;
+  }
+
+  .frete p {
+    font-size: small;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-container {
+    display: flex;
+  }
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+  }
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+
+  .banner img {
+    max-width: 100%;
+  }
+  .banner {
+    background-color: #ecebdb;
+  }
+  .row-pitch {
+    margin-top: 60px;
+  }
+
+  .mais {
+    display: block;
+    margin: 40px;
+  }
+  .carrossel {
+    width: 400px;
+  }
+  .sobre {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .rodape {
+    display: block;
+  }
+
+  .frase {
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rodape i {
+    color: #ecebdb;
+    margin: 20px;
+  }
+
+  .rodape ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .pictures {
+    display: block;
+    margin: 10px;
+  }
+  .pictures img {
+    align-content: center;
+    margin-left: 75px;
+  }
+
+  .image-showcase .bombons {
+    width: 100%;
+  }
+  .bombons h6 {
+    float: none;
+    margin-top: 20px;
+  }
+  .bombons p {
+    text-align: center;
+    float: none;
+  }
+
+  .bombons img {
+    margin-left: 100px;
+    opacity: none;
+  }
+  .formulario {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .loc {
+    align-items: center;
+    text-align: center;
+  }
+
+  form {
+    max-width: 300px;
+  }
+}
+@media (min-width: 625px) and (max-width: 700px) {
+  .banner img {
+    max-width: 100%;
+  }
+  .mais {
+    display: block;
+    margin: 40px;
+  }
+  .carrossel {
+    width: 100%;
+  }
+  .carrossel img {
+    width: 600px;
+    height: 700px;
+    padding: 60px;
+  }
+  .sobre {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  .pictures {
+    display: block;
+    margin: 10px;
+  }
+  .pictures img {
+    align-content: center;
+    margin-left: 140px;
+    width: 60%;
+  }
+  .image-showcase .bombons {
+    width: 73.33%;
+  }
+  .bombons img {
+    opacity: none;}
+}

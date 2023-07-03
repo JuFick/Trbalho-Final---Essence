@@ -1,0 +1,240 @@
+@media  (min-width: 480px) and (max-width: 625px) {
+  .formulario {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .loc {
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-menu {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .navbar-menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .banner img {
+    max-width: 100%;
+  }
+
+  .row-pitch {
+    margin-top: 60px;
+  }
+
+  .mais {
+    flex-direction: column;
+    margin: 40px;
+  }
+  .sobre {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .image-showcase .bombons {
+    width: 100%;
+  }
+
+  .contact-info {
+    margin-top: 30px;
+  }
+  .frete {
+    background-color: #2f346f;
+    text-align: center;
+    padding: 0.1rem;
+  }
+
+  .frete p {
+    color: #ecebdb;
+  }
+
+  .navbar {
+    background-color: #ecebdb;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #2f346f;
+    font-size: 26px;
+    transition: border-bottom 0.3s, border-right 0.3s;
+  }
+
+  .navbar-menu li a:hover {
+    color: #dc6272;
+  }
+
+  header .logo {
+    width: 100px;
+    margin-left: 30px;
+  }
+
+  .banner {
+    background-color: #ecebdb;
+  }
+
+  .banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1);
+    transition: transform 1s;
+  }
+
+  .banner img:hover {
+    transform: scale(0.9);
+  }
+
+  .row-pitch {
+    margin-top: 80px;
+  }
+
+  .section-features {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .section-features h2 {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #2f346f;
+  }
+
+  .section-features h2::after {
+    display: block;
+    content: "         ";
+    width: 100px;
+    height: 5px;
+    background-color: #dc6272;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .mais {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .carrossel {
+    width: 100%;
+    margin-right: 40px;
+  }
+
+  .carrossel img {
+    width: 400px;
+    height: 600px;
+  }
+
+  .sobre h4 {
+    text-transform: uppercase;
+    color: #2f346f;
+  }
+
+  .rodape {
+    background-color: #2f346f;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rodape h5 {
+    color: #ecebdb;
+    text-transform: uppercase;
+  }
+  .frase {
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rodape p {
+    color: #ecebdb;
+    margin: 20px;
+  }
+
+  .rodape i {
+    color: #ecebdb;
+    margin: 20px;
+  }
+
+  .rodape ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .rodape a {
+    color: #ecebdb;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  .pictures {
+    display: block;
+    margin: 10px;
+  }
+  .bombons h6 {
+    float: none;
+    margin-top: 20px;
+  }
+  .bombons p {
+    text-align: center;
+    float: none;
+    opacity:0;
+  }
+  
+  .bombons img{
+    margin-left: 70px;
+  }
+  .formulario {
+    flex-direction: column;
+  }
+
+  .text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .loc {
+    align-items: center;
+    text-align: center;
+  }
+
+  form {
+    max-width: 300px;
+  }
+}

@@ -16,7 +16,11 @@
   }
   .navbar-menu {
     list-style: none;
-    display: flex;
+    display: none;
+  }
+  .menu-burger {
+    display: block;
+    cursor: pointer;
   }
   .navbar-menu li {
     margin-left: 20px;
@@ -114,6 +118,20 @@
   
 }
 @media (min-width: 625px) and (max-width: 700px) {
+  .navbar-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+  .navbar-menu.active {
+    display: flex; 
+  }
+
+  .menu-burger {
+    display: block;
+    cursor: pointer;
+  }
   .banner img {
     max-width: 100%;
   }
